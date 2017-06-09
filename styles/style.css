@@ -1,0 +1,46 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 100%;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.container {
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+div.grid_element {
+    display: block;
+    float: left;
+    background-color: yellow;
+}
+
+
+/*.new_grid_element {
+    display: block;
+    float: left;
+    background-color: blue;
+}*/
+
+#reset_btn {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: #909090;
+    padding: 10px 20px;
+}
